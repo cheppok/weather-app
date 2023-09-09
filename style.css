@@ -1,0 +1,241 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: url(images/clouds-3488632_640.jpg);
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.header {
+    color: black;
+    
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-weight: bolder;
+}
+.search {
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin-top: 3%;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+.search input {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 5px;
+
+}
+.search-img {
+    background: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -15%;
+    border-radius: 50%;
+}
+.search-img:hover {
+    cursor: pointer;
+}
+
+.search-img img {
+    height: 40px;
+   
+    right: -20%;
+    padding-right: 5px;
+   
+}
+.container {
+    height: 70vh;
+    width: 80vw;
+    background: wheat;
+    position: relative;
+    left: 10%;
+    margin-top: 3%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+   
+
+}
+
+.left-section {
+    width: 45%;
+    height: 110%;
+    border-radius: 20%;
+    background-image: url(images/nature.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -6%;
+    left: -3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.left-section::after {
+ content: " ";
+ height: 100%;
+ width: 100%;
+ background: rgba(0, 0, 0, 0.3);
+ position: absolute;
+ border-radius: 20%;
+
+}
+.weather-txt {
+    height: 60px;
+    font-size: 60px;
+    color: rgb(145, 7, 7);
+   
+    
+}
+.temp {
+    font-size: 80px;
+    margin: 0;
+   
+}
+.cloud-icon {
+    margin-bottom: 0;
+    height: 150px;
+border: none;
+
+    width: 200px;
+   margin-top: 20px;
+}
+.city {
+    font-size: 30px;
+    margin-top: 5%;
+}
+.city img {
+    height: 40%;
+}
+.hum-win {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+     padding: 0 20px;
+}
+.hum-win img {
+    height: 35px;
+    padding-right: 0;
+    margin-right: 0;
+   
+}
+
+.humidity {
+    display: flex;
+}
+
+.windSpeed {
+    display: flex;
+}
+.right-section {
+   
+    width: 55%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.date {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    height: 20%;
+    font-size: 40px;
+
+}
+.lat, .long {
+    font-size: 25px;
+    background: orchid;
+    width: 30%;
+    border-radius: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.coordi {
+    font-style: italic;
+    font-size: large;
+}
+.date-element {
+    display: flex;
+   
+    width: 45%;
+    justify-content: space-around;
+    margin: 0;
+    border-radius: 15px;
+
+}
+.date-day {
+    background-color: aliceblue;
+    margin: 0;
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#date {
+    font-size: 4rem;
+}
+#day {
+    font-size: 1.5rem;
+}
+.month-year {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    width: 40%;
+    color: aliceblue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#time {
+    background-color: aliceblue;
+    position: absolute;
+    right: 10%;
+    height: 15%;
+    width:45%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}

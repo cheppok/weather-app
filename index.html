@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44980989fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">Weather App</div>
+    <div class="search">
+         <input type="text" id="cityinput" placeholder="type city name here">
+         <div class="search-img"> <img src="images/search.png" ></div>
+    </div>
+
+    
+   
+
+
+    <div class="container">
+        <div class="left-section">
+            <div class="weather-txt"></div>
+            <div id="cloud-icon">
+                <img src="images/clear.png" class="cloud-icon">
+            </div>
+            <div class="temp">20</div>
+            
+            <div class="city">Lagos</div>
+            <div class="hum-win">
+               <span> <img src="images/humidity.png">
+                         <div class="humidity">53</div>
+                         <p>humidity</p>
+                </span>
+                <span><img src="images/wind.png" >
+                        <div class="windSpeed">24</div>
+                        <p>Wind</p>
+                 </span>
+               
+                
+            </div>
+        </div>
+        <div class="right-section">
+             <div class="date-element">
+                <div class="date-day">
+                    <p id="date">01</p>
+                    <p id="day">monday</p>
+                </div>
+               <div class="month-year">
+                    <p id="month">january</p>
+                    <p id="year">2000</p>
+                
+               </div>
+             </div>
+             <div id="time"> 10: 25: 00 AM</div>
+
+             <div class="lat"> Latitude 
+                    <div class="latitude coordi"> <p>24</p></div>
+             </div>
+                <div class="long">Longitude
+                    <div class="longitude coordi"> <p>60</p> </div>
+             </div>
+             
+         </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
